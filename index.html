@@ -2,6 +2,43 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Pomodoro Tracker</title>
+  <title>Pomodoro Timer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
 </head>
+
+<body>
+<div class="container">
+  <h1>POMODORO TIMER</h1>
+  <div id="pomodoro">
+    <img src="https://cdn4.iconfinder.com/data/icons/lifestyle-set-2/100/62e7c85d5ee356f4a1e17fd0ca344590-512.png" style="width:350px; height:350px">
+    <div id="status"></div>
+    <div class="timerDisplay">25:00</div>
+    <button id="start-btn" class="btn">START</button>
+  </div>
+
+  <div class="settings">
+    <div id="work">
+      <p>WORK LENGTH</p>
+      <button class="btn-settings" id="work-plus">+</button>
+      <div><span id="work-min">25</span> mins</div>
+      <button class="btn-settings" id="work-minus">-</button>
+    </div>
+
+    <button id="reset" class="btn">RESET</button>
+
+    <div id="break">
+      <p>BREAK LENGTH</p>
+      <button class="btn-settings" id="break-plus">+</button>
+      <div><span id="break-min">5</span> mins</div>
+      <button class="btn-settings" id="break-minus">-</button>
+    </div>
+  </div>
+
+  <p class="footer">Coded and designed by <a href="https://github.com/AntonellaMorittu" target="blank">Antonella Morittu</a></p
+</div>
+
+<script  src="js/index.js"></script>
+
+</body>
+</html>
