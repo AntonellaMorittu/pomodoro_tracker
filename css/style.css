@@ -1,18 +1,27 @@
+@font-face{
+  font-family:'cherry-cream-soda';
+  font-family:'the-juke-box-ffp';
+  src: url('CherryCreamSoda.ttf');
+  src: url('The_Juke_Box-FFP.ttf');
+}
 html {
   background-color: #FE696F;
+  background: linear-gradient(to bottom right, #FB443F,#C70039  );
   text-align: center;
   min-width: 350px;
-  font-family: 'Pangolin', cursive;
   color: white;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 4px;
 }
 
 h1 {
-  text-decoration: overline;
-  font-family: 'Pangolin', cursive;
-  font-size: 4em;
+  font-family:'the-juke-box-ffp';
+  text-shadow:  2px 2px white;
+  font-size: 6em;
   font-weight: lighter;
   padding-top: 20px;
   margin: 0px 10px;
+  color: black;
 }
 
 .container {
@@ -30,7 +39,7 @@ h1 {
 }
 
 .timerDisplay {
-  color: #fff;
+  color: black;
   font-size: 4em;
   font-weight: bold;
   position: absolute;
@@ -42,7 +51,7 @@ h1 {
 .btn {
   margin: 10px;
   padding: 8px 10px;
-  color: white;
+  color: black;
   font-size: 1em;
   cursor:pointer;
   border: 2px solid white;
@@ -55,8 +64,10 @@ h1 {
   position: absolute;
   bottom: 8%;
   left: 48%;
-  transform: translate(-50%, -50%);
-  background: #DAF7A6;
+  transform: translate(-45%, -50%);
+  background: #25440D;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
 }
 
 .btn-settings {
@@ -66,7 +77,7 @@ h1 {
   border-radius: 10px;
   padding: 2px 5px;
   min-width: 40px;
-  color: white;
+  color: black;
   font-size: 2em;
   cursor:pointer;
 }
@@ -84,33 +95,34 @@ h1 {
   width: 80px;
   height: 80px;
   background: #C70039  ;
-  transform: translate(0%, 50%);
-
+  transform: translate(20%, 32%);
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
 }
 
 #work, #break {
-  color: #C70039  ;
+  color: black  ;
   font-weight: bold;
 }
 
 #work p, #break p {
-  color: #C70039  ;
+  color: black  ;
   padding: 5px;
 }
 
 .footer {
   padding: 20px 0;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:hover {
-  color: #C70039;
+  color: #25440D;
 }
 @media only screen and (max-width: 400px) {
   .timerDisplay {
