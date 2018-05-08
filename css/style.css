@@ -65,7 +65,7 @@ h1 {
   bottom: 8%;
   left: 48%;
   transform: translate(-45%, -50%);
-  background: #25440D;
+  background: #56BC07;
   font-family: 'Bangers', cursive;
   letter-spacing: 2px;
 }
@@ -94,7 +94,7 @@ h1 {
   border-radius: 50px;
   width: 80px;
   height: 80px;
-  background: #C70039  ;
+  background: #02A2D9  ;
   transform: translate(20%, 32%);
   font-family: 'Bangers', cursive;
   letter-spacing: 2px;
@@ -122,7 +122,7 @@ a {
 }
 
 a:hover {
-  color: #25440D;
+  color: #56BC07;
 }
 @media only screen and (max-width: 400px) {
   .timerDisplay {
